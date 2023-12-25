@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chat App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.js"
+        integrity="sha512-zoJXRvW2gC8Z0Xo3lBbao5+AS3g6YWr5ztKqaicua11xHo+AvE1b0lT9ODgrHTmNUxeCw0Ry4BGRYZfXu70weg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="./style.css">
+    <!------ Include the above in your HEAD tag ---------->
+</head>
+
+<body>
+    <div class="col-sm-3 col-sm-offset-4 frame">
+        <ul></ul>
+        <div>
+            <div class="msj-rta macro">
+                <div class="text text-r" style="background:whitesmoke !important">
+                    <input class="mytext" placeholder="Type a message" />
+                </div>
+
+            </div>
+            <div style="padding:10px;">
+                <span class="glyphicon glyphicon-share-alt"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
